@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biffa Waste Management</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@500&family=Lexend+Deca:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+  <script src="scripts.js"></script> <!-- Link to external JavaScript -->
+</head>
+
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Biffa</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Our Sustainable Business</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services & Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Specialist Solutions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Support & Resources</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0 mr-3">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+      </form>
+      <button class="btn btn-quote my-2 my-sm-0 mr-2" type="button">Get a Quote <i class="fas fa-arrow-right"></i></button>
+      <button class="btn btn-myBiffa my-2 my-sm-0 mr-2" type="button">myBiffa <i class="fas fa-user"></i></button>
+      <a href="https://www.figma.com/proto/T3jo68KniQmY7lU2sWHtmg/Final-Project---Anna%2C-Pati%2C-Baz%2C-Jan?node-id=416-3046&t=M1Aj0xF9P0TU1zHV-1&scaling=scale-down&content-scaling=fixed&page-id=32%3A5&starting-point-node-id=416%3A3046" class="btn btn-app my-2 my-sm-0" type="button">Get the App</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <div class="container">
+      <h1>Expert residential <br>waste collection <br>services</h1>
+      <p>Tailor service descriptions to focus on residential needs,<br> such as waste management, recycling, and home sustainability practices.</p>
+    </div>
+  </div>
+
+  <!-- Breadcrumb Section -->
+  <div class="breadcrumb-section">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Biffa</a></li>
+          <li class="breadcrumb-item"><a href="#">Waste Services & Products</a></li>
+          <li class="breadcrumb-item"><a href="#">Collection & Management</a></li>
+          <li class="breadcrumb-item active" aria-current="page">For Everyone</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- App Feature Section -->
+  <div class="quote-section">
+    <h2>Introducing Our New App</h2>
+    <p>Our new app allows private individuals<br> to schedule waste pick-ups easily.<br> Join our service to either get your waste picked up<br> or earn by collecting waste and delivering it to designated disposal centers.</p>
+
+    <div class="steps">
+      <div class="step-card">
+        <br>
+        <h2>Step 1:<br>Request Pick-Up</h2>
+        <p>Use the app to schedule a waste pick-up at your convenience.</p>
+      </div>
+      <div class="step-card">
+        <br>
+        <h2>Step 2:<br>Pick-Up & Transport</h2>
+        <p>Our service providers will collect your waste and transport it to the disposal center.</p>
+      </div>
+      <div class="step-card">
+        <br>
+        <h2>Step 3:<br>Get Paid</h2>
+        <p>Earn money by picking up waste and delivering it to the proper facilities.</p>
+      </div>
+    </div>
+
+    <a href="#" class="cta-link">Get the App <i class="fas fa-arrow-right"></i></a>
+  </div>
+
+  <!-- FAQs Section -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+    <div id="faqAccordion" class="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What services does Biffa provide?<i class="fas fa-chevron-down"></i>
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+          <div class="card-body">
+            Biffa provides a wide range of waste management services, including commercial waste collection, recycling, hazardous waste disposal, and more. We tailor our services to meet the needs of individuals and small to medium enterprises.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              How do I schedule a waste pick-up?<i class="fas fa-chevron-down"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+          <div class="card-body">
+            Scheduling a waste pick-up is easy. Simply download our app, sign up, and use the scheduling feature to set a convenient time for your waste to be collected.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Can I manage my waste services online?<i class="fas fa-chevron-down"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+          <div class="card-body">
+            Yes, you can manage all aspects of your waste services online through our app or website. This includes scheduling pick-ups, viewing service history, and managing payments.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              What areas does Biffa serve?<i class="fas fa-chevron-down"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+          <div class="card-body">
+            Biffa provides waste management services across the UK, with comprehensive coverage in both urban and rural areas. We are committed to serving residential areas.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- What if waste wasn't wasted section -->
+  <div class="waste-section">
+    <div class="container">
+      <h2>What if waste wasn't wasted?</h2>
+      <p>We work with industries to make sure no waste goes to waste.</p>
+      <a href="#" class="btn">Find out more <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!-- Testimonial Section -->
+  <div class="testimonial-section">
+    <div class="container">
+      <div class="quote-icon">
+        <i class="fas fa-quote-left"></i>
+      </div><br>
+      <h3><i>I've been using this app for my residential waste management, and it's been a game-changer! The interface is user-friendly, making it easy to schedule pickups and manage my recycling. The app provides timely notifications and clear guidelines on what can be recycled, helping me keep my home waste-free. Plus, the customer service is responsive and helpful. I love how eco-conscious and efficient this service is, and I highly recommend it to any homeowner looking to streamline their waste management!</i></h3>
+      <span>Thomas Perry, London</span>
+    </div>
+  </div>
+
+  <!-- Where we operate Section -->
+  <div class="where-we-operate-section">
+    <div class="container">
+      <div class="row">
+        <!-- Empty columns for spacing -->
+        <div class="col-md-3"></div>
+        <div class="col-md-3"></div>
+
+        <!-- Content column -->
+        <div class="col-md-6 where-we-operate-content">
+          <h2>Where we operate</h2>
+          <p>As one of the UK’s leading waste management businesses, we provide nationwide commercial waste disposal coverage, with over 100 local depots near you, dotted across 49 counties. A fully licensed and accredited waste carrier, we have achieved the Carbon Saver Gold Standard for over 12 years running. We offer comprehensive, trusted, reliable, business waste management solutions local to you.</p>
+          <a href="#" class="btn">Biffa UK locations <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Footer Section -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>Get up-to-date</h5>
+          <a href="#">Privacy statement</a><br>
+          <a href="#">Policies</a><br>
+          <a href="#">Manage cookies</a><br>
+          <a href="#">Cookie policy</a><br>
+          <a href="#">Website terms</a>
+          <div class="logo">
+            <a class="navbar-brand" href="#"><b>Biffa</b></a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h5>Get involved</h5>
+          <a href="#">Media</a><br>
+          <a href="#">Careers</a><br>
+          <a href="#">Suppliers</a><br>
+          <a href="#">Sitemap</a>
+        </div>
+        <div class="col-md-3">
+          <h5>Get in touch</h5>
+          <a href="#">Enquiries</a><br>
+          <a href="#">myBiffa</a><br>
+        </div>
+        <div class="col-md-3">
+          <h5>Follow us:</h5>
+          <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-linkedin"></i></a> <a href="#"><i class="fab fa-facebook"></i></a> <a href="#"><i class="fab fa-instagram"></i></a>
+          <br><br>
+          <p>© Biffa 2024<br>
+            Incorporated in England and Wales.<br>
+            Registration No: 10336040<br>
+            VAT No: 537 911 627<br>
+            Registered Office: Coronation Road,<br>
+            Cressex, High Wycombe,<br>
+            Buckinghamshire HP12 3TZ</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating CTA Button -->
+  <div class="cta-float">
+    <a href="#" class="btn btn-secondary btn-lg">Get a Quote <i class="fas fa-arrow-right"></i></a>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+
+</html>
